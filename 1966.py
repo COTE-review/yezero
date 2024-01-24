@@ -22,3 +22,4 @@ for i in range(t):
             queue.append(front)
             if m < 0:
                 m = len(queue) - 1
+#진짜진짜몰라

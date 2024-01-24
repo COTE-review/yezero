@@ -19,4 +19,4 @@ for l in M:
     start = 0
     end = len(N) - 1
     print(binary(l, N, start, end))
-#몰라
+#ahffkfkf
