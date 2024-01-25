@@ -1,4 +1,5 @@
 from sys import stdin, stdout
+
 n = stdin.readline()
 N = sorted(map(int, stdin.readline().split()))
 m = stdin.readline()
@@ -19,4 +20,9 @@ for l in M:
     start = 0
     end = len(N) - 1
     print(binary(l, N, start, end))
-#ahffkfkf
+
+#첫번째 집합(A)과 두번째 집합(B)를 입력받음
+#A 집합을 입력받을 때 오름차순으로 정렬함
+#이진 탐색을 구현함
+#A집합의 중간값부터 B집합의 값을 각각 비교하여
+#있으면 1을, 없으면 0을 반환
